@@ -1,0 +1,97 @@
+.offer {
+    position: relative;
+    width: 489px;
+    margin: 31px 0 0 88px;
+    border-bottom: 1px solid #eaeaeb;
+    padding-bottom: 24px;
+}
+.offer:before,
+.offer:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+.offer:nth-of-type(1) {
+    margin-top: 0;
+}
+.logo {
+    margin-top: 11px;
+    float: left;
+    width: 222px;
+    height: 37px;
+    position: relative;
+}
+.logo img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 179px;
+    height: auto;
+}
+.info {
+    float: left;
+}
+.name {
+    color: #32313F;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.desc {
+    color: #7C7C7C;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.interest {
+    color: #FDBF2E;
+    font-size: 14px;
+}
+.description {
+    color: #7C7C7C;
+    font-size: 14px;
+}
+.top {
+
+}
+.bottom {
+
+}
+.top .more {
+    top: 15px;
+    right: -9px;
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    overflow: hidden;
+    font-size: 0;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url('/assets/img/more.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.top .more:hover {
+    background-color: #fdbf2e;
+}
+.bottom .more {
+    margin-top: 5px;
+    display: inline-block;
+    width: 88px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #007AF7;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-left: -12px;
+}
+.bottom .more:hover {
+    background-color: #fdbf2e;
+    text-decoration: none;
+    color: #272727;
+}

@@ -1,0 +1,62 @@
+.loader {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    border: 2px solid transparent;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    animation:spin .5s linear infinite;
+    border-radius: 50%;
+}
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.offers {
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.logo {
+    margin: 0 auto 29px auto;
+    width: 139px;
+    height: 22px;
+    background: url('/assets/img/logo-sm.png') center top no-repeat;
+}
+.inner {
+    padding-top: 65px;
+    background: #fbfcfc url('/assets/img/variants-bg.jpg') center 476px no-repeat;
+    margin: 0 auto;
+    width: 620px;
+    height: 1050px;
+    background-color: #FFF;
+    border-radius: 3px;
+    box-shadow: 0 0 15px rgba(22, 53, 67, 0.04);
+}
+.greetings {
+    text-align: center;
+    margin-bottom: 68px;
+}
+.name {
+    color: #32313F;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.desc {
+    opacity: 0.6;
+    color: #32313F;
+    font-size: 16px;
+    font-weight: 400;
+}
+.also {
+    margin: 127px 0 58px 0;
+    text-align: center;
+    opacity: 0.6;
+    color: #32313F;
+    font-size: 16px;
+    font-weight: 400;
+}
